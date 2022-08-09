@@ -1,6 +1,7 @@
 const http = require('http')
 
 const port = 80
+const port = 80
 
 const server = http.createServer((request, response) => {
   response.writeHead(200, {'Content-Type': 'text/plain'})
